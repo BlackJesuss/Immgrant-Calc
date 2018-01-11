@@ -79,6 +79,9 @@ $("#ff").change(function() {
 		$("input[type=radio][name=status]:checked").val(function() {
 		$(this).prop("checked",false);
 		});
+		if($(this).prop('checked')) {
+		$('#re').prop("required", false);
+		};
 	});
 		
   $(lawful).click(function() {
