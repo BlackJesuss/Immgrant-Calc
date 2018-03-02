@@ -168,15 +168,15 @@ user-select: none;
 <br>
 		<b>Permanent Resident Status</b><br><br>
 			<div id="comStat">
-			<label><input id="perm" type="radio" name="date" value="Perm">Lawful Permanent Resident<br></label>
-			<label><input id="comperm" type="radio" name="date" value="comPerm">Permanent Resident - Commuter Status<br></label>
-			<label><input id="conperm" type="radio" name="date" value="conPerm">Conditional Permanent resident<br></label>
+			<label><input id="perm" type="radio" name="date" value="Lawful Permanent Resident" required>Lawful Permanent Resident<br></label>
+			<label><input id="comperm" type="radio" name="date" value="Permanent Resident - Commuter Status">Permanent Resident - Commuter Status<br></label>
+			<label><input id="conperm" type="radio" name="date" value="Conditional Permanent resident">Conditional Permanent resident<br></label>
 			<p id="err1" style="color:red; display: none">*You must choose an option</p>
 			</div>
 <br>
 			<div id="lawStat">
 		<b>Lawful Permanent Resident or in Commuter Status</b><br><br>
-			<label><input type="radio" name="status" value="pre-lost">My previous card has been lost, stolen, or destroyed<br>
+			<label><input id="re" type="radio" name="status" value="pre-lost" required>My previous card has been lost, stolen, or destroyed<br>
 			<label><input type="radio" name="status" value="pre-iss">My previous card was issued but never recieved<br>
 			<label><input type="radio" name="status" value="exi-mut">My existing card has been mutilated<br>
 			<label><input type="radio" name="status" value="exi-inc">My existing card has incorrect data because of DHS error<br>

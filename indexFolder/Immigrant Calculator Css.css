@@ -256,6 +256,9 @@ body {
 @media all and (max-width: 960px) {
   section.module.parallax h1 {
     font-size: 74px;
-	left: 13%;
+  }
+  
+  section.module.parallax-1 {
+	  background-size: 1500px 1000px; 
   }
 }
