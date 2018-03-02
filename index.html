@@ -9,121 +9,45 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<nav id="main_nav">
-			<ul>
-				<li>
-					<a id="home" onclick ="scrollHome()">Home</a>
-					<!--<ul>
-						<li>
-							<a href="">Children</a>
-						<ul>
-								<li><a class = "opener" href=""></a></li>
-					
-						</ul>
-						</li>
-						<li>
-							<a class="opener" data-panel="1" href="#john">Proctors</a>
-						<ul>
-							<li><a class = "opener" href="http://salem.lib.virginia.edu/people?group.num=&mbio.num=mb31" target="_blank" id = "0"> John Proctor</a></li>
-							<li><a class = "opener" href="http://www.legendsofamerica.com/ma-proctor2.html" target="_blank" id = "1"> Elizabeth Proctor</a></li>
-						</ul>
-						</li>
-						<li><a href="">Putnams</a>
-						<ul>
-							<li><a class = "opener" href="http://salem.lib.virginia.edu/people?group.num=&mbio.num=mb46" target="_blank" id = "0"> Thomas Putnam</a></li>
-							<li><a class = "opener" href="http://salem.lib.virginia.edu/people?group.num=&mbio.num=mb32" target="_blank" id = "1"> Ann Putnam</a></li>
-						</ul>
-						</li>
-						</ul>-->
-					</li>
-				<li>
-					<a href="">Dates</a>
-					<ul>
-						<li><a href="">January &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">February &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">March &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">April &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">May &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">June &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">July &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">August &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">September &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">October &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">November &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a href="">January(1693)</a></li>
-						<li><a href="">1693 - 1711 &nbsp;&nbsp;</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="http://bit.ly/2fuvGz7" target="_blank">References</a>
-				<li>
-					<a href="">Cool Links</a>
-					<ul>
-						<li>
-							<a href="http://law2.umkc.edu/faculty/projects/ftrials/salem/scopesjeopardy[1].htm" target="_blank">Salem Jepardy</a>
-						</li>
-						<li>
-							<a href="https://www.blankmediagames.com/" target="_blank">Town of Salem Game</a>
-						</li>
-						<li>
-							<a href="">Extras</a>
-							<ul>
-								<li><a href="http://123movies.is/film/the-crucible-6117/watching.html" target="_blank">The Crucible(1996)</a></li>
-								<li><a href="http://law2.umkc.edu/faculty/projects/ftrials/salem/accused%21.html" target="_blank">You're Accused!</a></li>
-								<li><a href="http://www.nationalgeographic.com/features/97/salem/" target="_blank">Interactive Salem Trials</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>
-</nav>	
 				<title>Immigrant Calculator: Online Tool</title>
-			
-			
+						
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-<!--<link rel="stylesheet" href="indexFolder/themes/default/default.css" type="text/css" media="screen" />
-<!--<link rel="stylesheet" href="indexFolder/themes/light/light.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="indexFolder/themes/dark/dark.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="indexFolder/themes/bar/bar.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="indexFolder/nivo-slider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="indexFolder/demo/style.css" type="text/css" media="screen" />-->
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="indexFolder/responsiveslides.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
 <script type="text/javascript" src="indexFolder/jquery.scrollTo.js"></script>
 <script src="indexFolder/indexScr.js"></script>
-<!--<script type="text/javascript" src="indexFolder/jquery.nivo.slider.js"></script> 
-<script type="text/javascript">
-	
-    $(window).load(function() {
-        $('#slider').nivoSlider({
-		effect: 'random',
-		controlNav:false,
-		controlNavThumbs:false,
-		directionNav:false,
-		});
-    });
-    </script>--> 
+
+<div class="banner"><h1>Immigration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calculator</h1>	
+	<img id="bimg" src="indexFolder/images/bimg.png"/></div>
 	</head>
-<body>
+<body onresize = "txtSize">
 <div id="wrapper">
-<!--<div id="wrapper">
-		<div class="slider-wrapper theme-default">
-			<div id="slider" class="nivoSlider"> <img src="indexFolder/demo/images/1.jpg" data-thumb="indexFolder/demo/images/1.png" title="#htmlcaption" alt="" /> <img src="indexFolder/demo/images/2.png" data-thumb="indexFolder/demo/images/2.png" alt="" title="#htmlcaption" /></a> <img src="indexFolder/demo/images/3.png" data-thumb="indexFolder/demo/images/3.png" alt=""title="#htmlcaption" data-transition="slideInLeft" /> <img src="indexFolder/demo/images/4.png" data-thumb="indexFolder/demo/images/4.png" alt="" title="#htmlcaption" /> <img src="indexFolder/demo/images/5.png" data-thumb="indexFolder/demo/images/5.png" alt=""title="#htmlcaption" /> </div>
-		<div id="htmlcaption" class="nivo-html-caption"> 
-			<div class="headerT"><h1 align="center">Immigrant Calculator</h1></div> 
-			<button type="button" id="stbtn"><a href="#qnaire"> Start </a></button>		
-		</div>
-	</div>
-</div>-->
-<section class="module parallax parallax-1">
-<div class="para1">
-<h1> Immigration Calculator </h1>
+
+<nav>	
+  <ul>
+	<div class="topnav" id="myTopnav">
+  <a href="#home" onclick="scrollHome()" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="https://www.uscis.gov/forms" target="_blank">Reference</a>
+  <a href="indexFolder/About%20Page.html">About</a>
+   <li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+    </div>
+  </ul>
+</nav>	
+
+<div class="front">
+<ul class="rslides">
+  <li><img src="indexFolder/images/immg.jpg" alt=""></li>
+  <li><img src="indexFolder/images/Immigration.jpg" alt=""></li>
+  <li><img src="indexFolder/images/Immigrat3ion.jpg" alt=""></li>
+</ul>
 <button id="stbtn"> Start </button>
 <button id ="scrolld" onclick="scrollToForm()"></button>
 </div>
-</section>
 
 <div class="border1"> 
 <img id="blocker" src="indexFolder/trans.png" style="position: absolute; top: 300px; height: 275px; width: 800px; z-index: -1; user-drag: none; 
@@ -134,6 +58,8 @@ user-select: none;
 -ms-user-select: none;" draggable="false" /><!--Height = 25px every bullet-->
 
 <div class="q-naire"><a id="qnaire">
+
+<div class="iform">
 	<form id="questionaire" action="index.php" method="POST">
 		<b>Select A Form</b><br><br>
 		<select name="form" id ="ff">
@@ -195,7 +121,7 @@ user-select: none;
 		
 	</form>
 </div></a>
-	
+</div>	
 </div>	
 </div>	
 </body>

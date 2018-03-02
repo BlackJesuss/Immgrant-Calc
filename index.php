@@ -24,21 +24,32 @@
 <h1>Checkout</h1>
 
 <?php
-
-$db = mysqli_connect('localhost','root','warbird33','MySQL56')
+$db = new mysqli('localhost','root','warbird33')
  or die('Error connecting to MySQL server.');
 
  function Check() {
 	 $confirm = $_REQUEST['date'];
 	 if ($confirm === "Lawful Permanent Resident") {
 		 $c1 = $confirm;
-		 
 	 }
 	 else {
 		  echo "CHECK IS UNSUCCESSFUL";
 	 }
  }
- echo Check();
+ 
+$sql = "SELECT data FROM immgdata";
+$result = $db->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<br> id: ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] . "<br>";
+    }
+} else {
+    echo "0 results";
+}
+
+$conn->close();
 ?>
 
 <div class="tg-wrap"><table id="tg-EhH7C" class="tg">
