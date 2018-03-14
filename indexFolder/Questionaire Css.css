@@ -1,9 +1,25 @@
 
+html, body, div, h1, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0 auto;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	vertical-align:baseline;
+	image-rendering: auto;
+}
 
 body {
 	background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #B0DAB9, #DAD299); 
 	background-repeat: no-repeat;
-	}
+}
+
+h1 {
+	font-size: 90px;
+	margin: 0 auto;
+}
 
 	
