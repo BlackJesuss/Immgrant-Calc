@@ -1,0 +1,162 @@
+
+[
+    {
+        "name":"IMMIGRANT TABLE",
+        "data":[
+            {
+                "ID":1,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"AR-11"
+            },
+            {
+                "ID":2,
+                "FILLING FEE":110.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":110.0000,
+                "FORM":"EOIR-29"
+            },
+            {
+                "ID":3,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-28"
+            },
+            {
+                "ID":4,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-28I"
+            },
+            {
+                "ID":5,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-325A"
+            },
+            {
+                "ID":6,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-639"
+            },
+            {
+                "ID":7,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-845"
+            },
+            {
+                "ID":8,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G845 Supplement"
+            },
+            {
+                "ID":9,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-884"
+            },
+            {
+                "ID":10,
+                "FILLING FEE":65.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":65.0000,
+                "FORM":"G-1041"
+            },
+            {
+                "ID":12,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-1145"
+            },
+            {
+                "ID":13,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-1256"
+            },
+            {
+                "ID":14,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"G-1450"
+            },
+            {
+                "ID":15,
+                "FILLING FEE":0.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":0.0000,
+                "FORM":"I-9"
+            },
+            {
+                "ID":16,
+                "FILLING FEE":455.0000,
+                "BIOMETRICS FEE":85.0000,
+                "TOTAL FEES":540.0000,
+                "FORM":"I-90"
+            },
+            {
+                "ID":17,
+                "FILLING FEE":455.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":455.0000,
+                "FORM":"I-102"
+            },
+            {
+                "ID":18,
+                "FILLING FEE":460.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":460.0000,
+                "FORM":"I-129"
+            },
+            {
+                "ID":19,
+                "FILLING FEE":460.0000,
+                "BIOMETRICS FEE":85.0000,
+                "TOTAL FEES":545.0000,
+                "FORM":"I-129CW"
+            },
+            {
+                "ID":20,
+                "FILLING FEE":535.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":535.0000,
+                "FORM":"I-129F"
+            },
+            {
+                "ID":21,
+                "FILLING FEE":5000.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":5000.0000,
+                "FORM":"I-129S"
+            },
+            {
+                "ID":22,
+                "FILLING FEE":3750.0000,
+                "BIOMETRICS FEE":85.0000,
+                "TOTAL FEES":3835.0000,
+                "FORM":"I-829"
+            },
+            {
+                "ID":23,
+                "FILLING FEE":4500.0000,
+                "BIOMETRICS FEE":0.0000,
+                "TOTAL FEES":4500.0000,
+                "FORM":"I-129S"
+            }
+        ]
+    }
+]
